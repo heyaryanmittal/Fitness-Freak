@@ -22,7 +22,7 @@
         <div class="links">
           <a href="#">Forget password</a> <a href="#">Signup</a>
         </div>
-        <input type="submit" value="Login" />
+        <input class="login" type="submit" value="Login"/>
       </form>
     </div>
     <style>
@@ -283,4 +283,9 @@
       }
     </style>
   </body>
+  <script>
+    addEventListener("click", function () {
+  document.querySelector(login).href = "http://127.0.0.1:5500/index.html#";
+});
+  </script>
 </html>

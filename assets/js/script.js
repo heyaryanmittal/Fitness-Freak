@@ -52,6 +52,5 @@ window.addEventListener("scroll", function () {
 });
 
 addEventListener("click", function () {
-  document.getElementById("login").href =
-    "C:UsersgauraOneDriveDesktopFitSync\favicon";
+  document.getElementById("login").href = "login/login.html";
 });
